@@ -1,5 +1,3 @@
-package com.innerMarket.testJavaDev;
-
 public class Customer {
 	
 	private static int idCustomerCounter = 1;

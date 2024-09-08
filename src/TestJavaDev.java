@@ -1,18 +1,12 @@
-package com.innerMarket.testJavaDev;
-
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-@SpringBootApplication
-public class TestJavaDevApplication {
+public class TestJavaDev {
 
 	static Scanner input = new Scanner(System.in);
 	static ArrayList<BankAccount> bankAccounts; 
 
 	public static void main(String[] args) {
-		SpringApplication.run(TestJavaDevApplication.class, args);
 		bankAccounts = new ArrayList<BankAccount>();
 		operations();
 	}
@@ -31,6 +25,7 @@ public class TestJavaDevApplication {
 		System.out.println("|	Opção 6 - Sair		|");
 
 		int operation = input.nextInt();
+
 		switch (operation) {
 			case 1:
 				createAccount();

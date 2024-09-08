@@ -1,5 +1,3 @@
-package com.innerMarket.testJavaDev;
-
 import java.util.InputMismatchException;
 
 public class ValidaCNPJ {

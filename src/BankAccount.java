@@ -1,7 +1,3 @@
-package com.innerMarket.testJavaDev;
-
-import com.innerMarket.utility.Utils;
-
 /**
  * BankAccount
  */
